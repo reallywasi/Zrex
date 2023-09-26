@@ -8,3 +8,4 @@ My first Startup ZREX is a cutting-edge freelancing software development company
 
 # Our Commitment:
 At ZREX, we are driven by our vision to democratize Web3 technologies through affordable pricing. As a fresh startup, we are passionately committed to making these advanced solutions accessible to all, regardless of their size or resources. 
+https://reallywasi.github.io/Zrex/
