@@ -21,6 +21,10 @@
     font-size: 1.1rem;
     position: fixed;
 }
+.out a{
+    text-decoration: none;
+    color: black;
+}
 
 .sec {
     height: 500px;
@@ -149,6 +153,7 @@ h1 {
 
 }
 .gap1{
+    border-top: 2px solid #000; /* 1px solid black line */
 
     /* 
     */
@@ -178,3 +183,41 @@ background-size: contain;
 max-height: 400px;
 
 }
+
+
+.contact-container {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-top:2px solid black;
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .contact-container textarea {
+    height: 100px;
+  }
+  
+  .contact-container button {
+    width: 105%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  @media (max-width: 576px) {
+    .contact-container {
+      max-width: 100%;
+    }
+  }
