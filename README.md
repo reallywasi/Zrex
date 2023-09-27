@@ -1,7 +1,7 @@
 
 # ZREX:
 https://reallywasi.github.io/Zrex/
-![l2](https://github.com/reallywasi/Zrex/assets/118682540/6bf25b41-b997-4c39-a3b1-21e1ada82407)
+# ![l2](https://github.com/reallywasi/Zrex/assets/118682540/6bf25b41-b997-4c39-a3b1-21e1ada82407)
 
 
 
