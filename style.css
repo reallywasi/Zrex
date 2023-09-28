@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Edu+SA+Beginner&family=Kanit:wght@800&family=REM:wght@300&family=Roboto+Slab&display=swap");
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bungee Spice", cursive;
+}
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.out {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw; /* Use vw for 100% of viewport width */
+  height: 10vh;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  /* box-shadow: red; */
+  box-shadow: 10px #b92f2f;
+  z-index: 3;
+  font-size: 1.1rem;
+  position: fixed;
+}
+.out a {
+  text-decoration: none;
+  color: black;
+}
+
+.sec {
+  height: 500px;
+  padding-bottom: 15rem;
+}
+
+.head {
+  background-color: rgb(109, 103, 103);
+  height: 900px;
+  z-index: 2;
+}
+
+.foot {
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 80px;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 100vw; /* Use vw for 100% of viewport width */
+  left: 0;
+  right: 0;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+.follow_us {
+  padding-top: 2.5rem;
+  justify-content: center;
+}
+
+.social {
+  font-size: 1.1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 1.8rem;
+  justify-content: center;
+}
+
+.soc {
+  padding-left: 1rem;
+}
+
+.our_services {
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw; /* Use vw for 100% of viewport width */
+  align-items: center;
+  font-size: 1rem;
+  margin-top: 4rem;
+}
+
+.it {
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.two a {
+  text-decoration: none;
+  color: rgb(232, 225, 215);
+}
+
+.two {
+  background-color: rgb(0, 0, 0);
+  height: 18rem;
+}
+
+.ourservices {
+  font-size: 1.5rem;
+  color:rgb(231, 224, 224);
+}
+
+.xx:hover {
+  color:rgb(164, 119, 119);
+}
+
+.one {
+  background-image: url("l2-removebg-preview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-height: 300px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%; /* Use 100% width */
+  justify-content: center;
+  padding-top: 20rem;
+  padding: 4rem;
+}
+.an {
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+
+.startup-description {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Center align the content */
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.description-line {
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  margin-top: 10px;
+  text-align: center; /* Center align the text */
+}
+
+.social a {
+  text-decoration: none;
+}
+.hea {
+  border-top: 2px solid #000; /* 1px solid black line */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.gap1 {
+  border-top: 2px solid #000; /* 1px solid black line */
+
+  /* 
+    */
+
+  height: 500px;
+  border: #b92f2f;
+  background-image: url("leftright.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  background-size: contain;
+  max-height: 400px;
+}
+.gap2 {
+  /* 
+    */
+
+  height: 500px;
+  border: #b92f2f;
+  background-image: url("right.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  background-size: contain;
+  max-height: 400px;
+}
+.gap3 {
+  border-top: 2px solid #000; /* 1px solid black line */
+
+  /* 
+    */
+
+  height: 500px;
+  border: #b92f2f;
+  background-image: url("employees.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  background-size: contain;
+  max-height: 350px;
+}
+
+.gap4 {
+  /* 
+      */
+
+  height: 400px;
+  border: #b92f2f;
+  background-image: url("emp2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  background-size: contain;
+  max-height: 400px;
+  padding-top: 0rem;
+}
+
+
+
+.gap5 {
+
+  /* 
+    */
+
+  background-image: url("finalfoot3.jpg");
+  background-position: center;
+  background-repeat:no-repeat;
+  /* width: 80%; */
+  background-size: contain;
+  height: 280px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.contact-container {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-top: 2px solid black;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-container textarea {
+  height: 100px;
+}
+
+.contact-container button {
+  width: 105%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+@media (max-width: 576px) {
+  .contact-container {
+    max-width: 100%;
+  }
+}
+
+.cards_container {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(231, 224, 224);
+}
+.card {
+  width: 14rem;
+  height: 7rem;
+  border: 2px solid #ccc;
+  margin: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+padding-top:2rem;
+}
+
+.cards_container h1 {
+ 
+  font-size: 1.3rem;
+}
+
+/* 
+.card :hover{
+   transition: duration 1s;
+width: 10rem;
+height: 7rem;
+background-color: black;
+color: grey;
+top:0;
+
+    
+    } */
+.card:hover {
+  transition-duration: 0.5s;
+  background-color: black;
+  color: white;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: rgb(230, 24, 24);
+}
+.copyright a:hover {
+  color: rgb(230, 6, 6);
+}
+.blocks {
+  text-align: center;
+}
+
+.contt {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.to {
+  margin-top: 5rem;
+}
+
+.help {
+  font-size: 2rem;
+  text-align: center;
+}
+.helpout {
+  background-color: rgb(213, 198, 204);
+  background-color: rgb(231, 224, 224);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.crd {
+  font-size: 1.18rem;
+  border: 1px solid #c0baba;
+  background-color: #c6bcbc;
+  border-radius: 6px;
+  padding: 0.8rem;
+  width: 10rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.crd:hover {
+  transition-duration: 0.5s;
+  background-color: black;
+  color: #ccc;
+}
+.l{
+  justify-content: center;
+  align-items: center;
+margin-bottom: 0;
+}
+
+
+@media (max-width: 576px) {
+  .gap5 {
+    display: none; /* Hide the element on small screens */
+  }
+}
