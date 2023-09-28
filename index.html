@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zrex</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" id="home">
       <div class="out">
         <div class="nav-item">
           <img src="l2-removebg-preview.png" height="43rem" />
@@ -31,7 +32,7 @@
     </section>
  -->
 
-    <div id="startup-description" class="startup-description">
+    <div id="about" class="startup-description">
       <h1 class="hea">Zrex: Transforming Your Business with Online Presence</h1>
       <div id="description-container">
         <p class="description-line">
@@ -58,13 +59,28 @@
         <p class="description-line">
           Connect with a global audience like never before.
         </p>
-        <p class="description-line" style="background-color: #211f1f;
-        color: white;
-        padding: 0.2rem; font-size:1.5rem;">Your success story begins with Zrex.</p>
-        <p class="description-line" style="    color: #000000;
-        background-color: #d3c8c8;
-        padding: 0.2rem;
-        font-size: 1.5rem;">Join the Web3 revolution today!</p>
+        <p
+          class="description-line"
+          style="
+            background-color: #211f1f;
+            color: white;
+            padding: 0.2rem;
+            font-size: 1.5rem;
+          "
+        >
+          Your success story begins with Zrex.
+        </p>
+        <p
+          class="description-line"
+          style="
+            color: #000000;
+            background-color: #d3c8c8;
+            padding: 0.2rem;
+            font-size: 1.5rem;
+          "
+        >
+          Join the Web3 revolution today!
+        </p>
       </div>
     </div>
 
@@ -90,9 +106,11 @@
     <section class="gap1"></section>
 
     <section class="blocks">
-      <h1 class="to" style="border-top: 2px solid rgb(225, 225, 225); ">Why Come Online</h1>
+      <h1 class="to" style="border-top: 2px solid rgb(225, 225, 225)">
+        Why Come Online
+      </h1>
 
-      <div class="cards_container" style="margin-bottom: 4rem;">
+      <div class="cards_container" style="margin-bottom: 4rem">
         <div class="card1 card"><h1>Increased virtual visibility</h1></div>
         <div class="card2 card"><h1>24 hrs active userbase</h1></div>
         <div class="card3 card"><h1>Get big and Global reach</h1></div>
@@ -103,16 +121,18 @@
         <div class="card8 card"><h1>Expanded Market Reach:</h1></div>
         <div class="card9 card"><h1>Instant E-commerce Transactions:</h1></div>
         <div class="card10 card"><h1>Cost-Effective Marketing</h1></div>
-        
-        
       </div>
     </section>
 
     <section class="gap4"></section>
     <section class="two sec">
       <div class="our_services flex">
-        <div class="ourservices it" style="font-size: 1.5rem;    color:rgb(179, 101, 101);
-        ;">OUR SERVICES</div>
+        <div
+          class="ourservices it"
+          style="font-size: 1.5rem; color: rgb(179, 101, 101)"
+        >
+          OUR SERVICES
+        </div>
         <div class="ecommerce it">
           <a href="#" class="xx">E commerce Websites</a>
         </div>
@@ -152,31 +172,33 @@
       </div>
     </section>
 
-
     <section class="gap3"></section>
 
-
-    <div class="help" ><h1 style="margin-top: 5rem; margin-bottom: 0.5rem;border-top: 2px solid rgb(225, 225, 225);">Be on Web with Zrex in 5 easy steps</h1></div>
-    <div class="helpout">
-        <div class="crd1 crd">Contact Us</div>
-        <div class="arrow" style="font-size: 3.5rem;">&#8675;</div>
-
-        <div class="crd2 crd">Discuss Design</div>
-        <div class="arrow" style="font-size: 3.5rem;">&#8675;</div>
-        <div class="crd3 crd">Payment</div>
-        <div class="arrow" style="font-size: 3.5rem;">&#8675;</div>
-
-        <div class="crd4 crd">Get a live Demo</div>
-        <div class="arrow" style="font-size: 3.5rem;">&#8675;</div>
-
-        <div class="crd5 crd">Launch and Deploy</div>
+    <div class="help">
+      <h1
+        style="
+          margin-top: 5rem;
+          margin-bottom: 0.5rem;
+          border-top: 2px solid rgb(225, 225, 225);
+        "
+      >
+        Be on Web with Zrex in 5 easy steps
+      </h1>
     </div>
+    <div class="helpout">
+      <div class="crd1 crd">Contact Us</div>
+      <div class="arrow" style="font-size: 3.5rem">&#8675;</div>
 
+      <div class="crd2 crd">Discuss Design</div>
+      <div class="arrow" style="font-size: 3.5rem">&#8675;</div>
+      <div class="crd3 crd">Payment</div>
+      <div class="arrow" style="font-size: 3.5rem">&#8675;</div>
 
+      <div class="crd4 crd">Get a live Demo</div>
+      <div class="arrow" style="font-size: 3.5rem">&#8675;</div>
 
-
-
-
+      <div class="crd5 crd">Launch and Deploy</div>
+    </div>
 
     <!-- 
     <div class="footer2">
@@ -193,7 +215,7 @@
       </div>
     </div> -->
 
-    <div class="contact-container">
+    <div class="contact-container" id="contact">
       <h1 class="contact_us" style="text-align: center">Contact Us</h1>
       <form action="/contact" method="post">
         <input type="text" name="name" placeholder="Name" />
@@ -202,10 +224,11 @@
         <button type="submit">Submit</button>
       </form>
     </div>
-    <section class="gap5" style="margin-bottom: 0;"></section>
+    <section class="gap5" style="margin-bottom: 0"></section>
 
-    <div class="footer2" style="border-top:2px solid #d8d4d4;padding-top: 0;">
-      <div class="l flex">  <img src="l2-removebg-preview.png" height="43rem" />
+    <div class="footer2" style="border-top: 2px solid #d8d4d4; padding-top: 0">
+      <div class="l flex">
+        <img src="l2-removebg-preview.png" height="43rem" />
       </div>
       <div class="follow_us flex" style="font-size: 1.2rem">
         Share with us on:
@@ -223,7 +246,6 @@
       <div class="copyright">
         Made with &#10084; by
         <a href="https://reallywasi.github.io/Portfolio_Website/"> Wasi</a>
-      
       </div>
     </footer>
   </body>
